@@ -12,3 +12,12 @@ set autoindent
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+" esc in insert & visual mode
+inoremap kj <esc>
+vnoremap kj <esc>
+
+set timeoutlen=500
+
+nnoremap H gT
+nnoremap L gt
