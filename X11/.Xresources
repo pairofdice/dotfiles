@@ -53,3 +53,6 @@ URxvt*tabbedex.tab-bg: 236
 URxv*tabbbedex.transparent: true
 URxv*tabbbedex.new-button: false
 
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
