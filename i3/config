@@ -17,7 +17,7 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 9
+font pango:Inconsolata NF 12
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -228,8 +228,8 @@ assign [class="firefox" instance="Navigator"] $web
 focus_follows_mouse no
 set $i3lockwall i3lock -i ~/lockscreen.png
 bindsym $mod+CTRL+Shift+l exec --no-startup-id $i3lockwall
+#exec --not-startup-id feh --no-fehbg --bg-fill '~/.config/i3/feh/background.jpg'
 exec --not-startup-id feh --no-fehbg --bg-fill ~/.config/i3/feh/background.jpg
-
 
 # floating pop up automatically
 for_window [window_role="pop-up"] floating enable
